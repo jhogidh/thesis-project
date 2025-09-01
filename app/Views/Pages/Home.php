@@ -47,7 +47,7 @@
       </div> -->
       <div class="social-links d-none d-md-flex align-items-center">
         <a href="https://smktelkom-sda.sch.id/" class="website"><i class="bi bi-window-sidebar"></i>&nbsp;&nbsp;Website</a>
-        <a href="<?=base_url('admin')?>" class="website"><i class="bi bi-file-text"></i>&nbsp;&nbsp;Admin</a>
+        <a href="<?= base_url('admin') ?>" class="website"><i class="bi bi-file-text"></i>&nbsp;&nbsp;Admin</a>
       </div>
     </div>
   </section><!-- End Top Bar -->
@@ -55,22 +55,22 @@
   <header id="header" class="header d-flex align-items-center">
 
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-      <a href="<?=base_url()?>" class="logo d-flex align-items-center">
+      <a href="<?= base_url() ?>" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
         <h1>Belajar <span>KJD</span></h1>
       </a>
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="<?=base_url()?>">Beranda</a></li>
-          <li><a href="<?=base_url("tentangkjd")?>">Tentang KJD</a></li>
+          <li><a href="<?= base_url() ?>">Beranda</a></li>
+          <li><a href="<?= base_url("tentangkjd") ?>">Tentang KJD</a></li>
           <li class="dropdown"><a href="#"><span>Materi</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
               <li><a href="materi">Materi KJD</a></li>
               <li><a href="materiguru">Materi Tambahan</a></li>
             </ul>
           </li>
-          <li><a href="<?=base_url("praktik")?>">Praktik</a></li>
+          <li><a href="<?= base_url("praktik") ?>">Praktik</a></li>
           <li class="dropdown"><a href="#"><span>Tes</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
               <li><a href="tes1">Tes 1</a></li>
@@ -115,128 +115,128 @@
   <section id="fact" class="testimonials">
     <div class="container" data-aos="fade-up">
 
-        <div class="section-header">
+      <div class="section-header">
         <h2>Fakta unik Tentang Komputer dan Jaringan</h2>
         <p>Voluptatem quibusdam ut ullam perferendis repellat non ut consequuntur est eveniet deleniti fignissimos eos quam</p>
-        </div>
+      </div>
 
-        <div class="slides-3 swiper" data-aos="fade-up" data-aos-delay="100">
+      <div class="slides-3 swiper" data-aos="fade-up" data-aos-delay="100">
         <div class="swiper-wrapper">
 
-            <div class="swiper-slide">
+          <div class="swiper-slide">
             <div class="testimonial-wrap">
-                <div class="testimonial-item">
+              <div class="testimonial-item">
                 <div class="d-flex align-items-center">
-                    <img src="assets/img/testimonials/fact1.jpeg" class="testimonial-img flex-shrink-0" alt="">
-                    <div>
+                  <img src="assets/img/testimonials/fact1.jpeg" class="testimonial-img flex-shrink-0" alt="">
+                  <div>
                     <h3>Hardisk Pertama di Dunia</h3>
                     <h4>HDD pertama ukurannya sebesar Kulkas</h4>
-                    </div>
+                  </div>
                 </div>
                 <p>
-                    <i class="bi bi-quote quote-icon-left"></i>
-                    Pada tanggal 4 September 1956 IBM mempopulerkan hardisk pertama di dunia. Ukurannya sebesar dua lemari es dan harganya mencapai $250.000 jika diuangkan dalam kurs saat ini. Namun kapasitas penyimpanannya hanya 5 MB.
-                    <i class="bi bi-quote quote-icon-right"></i>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  Pada tanggal 4 September 1956 IBM mempopulerkan hardisk pertama di dunia. Ukurannya sebesar dua lemari es dan harganya mencapai $250.000 jika diuangkan dalam kurs saat ini. Namun kapasitas penyimpanannya hanya 5 MB.
+                  <i class="bi bi-quote quote-icon-right"></i>
                 </p>
-                </div>
+              </div>
             </div>
-            </div><!-- End testimonial item -->
+          </div><!-- End testimonial item -->
 
-            <div class="swiper-slide">
+          <div class="swiper-slide">
             <div class="testimonial-wrap">
-                <div class="testimonial-item">
+              <div class="testimonial-item">
                 <div class="d-flex align-items-center">
-                    <img src="assets/img/testimonials/fact2.png" class="testimonial-img flex-shrink-0" alt="">
-                    <div>
+                  <img src="assets/img/testimonials/fact2.png" class="testimonial-img flex-shrink-0" alt="">
+                  <div>
                     <h3>Munculnya Virus Komputer</h3>
                     <h4>Virus pertama dibuat oleh 2 remaja</h4>
                     <div class="stars">
-                        
+
                     </div>
-                    </div>
+                  </div>
                 </div>
                 <p>
-                    <i class="bi bi-quote quote-icon-left"></i>
-                    Virus pertama ini dibuat oleh 2 bersaudara yang masih berusia 19 tahun, Basit Farooq Alvi dan Amjad Farooq Alvi. Virus ini awalnya dibuat untuk melindungi software mereka dari pembajakan.
-                    <i class="bi bi-quote quote-icon-right"></i>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  Virus pertama ini dibuat oleh 2 bersaudara yang masih berusia 19 tahun, Basit Farooq Alvi dan Amjad Farooq Alvi. Virus ini awalnya dibuat untuk melindungi software mereka dari pembajakan.
+                  <i class="bi bi-quote quote-icon-right"></i>
                 </p>
-                </div>
+              </div>
             </div>
-            </div><!-- End testimonial item -->
+          </div><!-- End testimonial item -->
 
-            <div class="swiper-slide">
+          <div class="swiper-slide">
             <div class="testimonial-wrap">
-                <div class="testimonial-item">
+              <div class="testimonial-item">
                 <div class="d-flex align-items-center">
-                    <img src="assets/img/testimonials/fact3.jpeg" class="testimonial-img flex-shrink-0" alt="">
-                    <div>
+                  <img src="assets/img/testimonials/fact3.jpeg" class="testimonial-img flex-shrink-0" alt="">
+                  <div>
                     <h3>Bapak Internet</h3>
                     <h4>Pencipta teknologi internet</h4>
                     <div class="stars">
-                        
+
                     </div>
-                    </div>
+                  </div>
                 </div>
                 <p>
-                    <i class="bi bi-quote quote-icon-left"></i>
-                    Teknologi ini ditemukan oleh Leonardo Kleinrock.
-                    ia berhasil membuat suatu penemuan besar menjelang abad modern yaitu internet yang secara tidak sengaja berhasil memecahkan kode digital dan menjadikannya paket-paket yang terpisah.
-                    <i class="bi bi-quote quote-icon-right"></i>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  Teknologi ini ditemukan oleh Leonardo Kleinrock.
+                  ia berhasil membuat suatu penemuan besar menjelang abad modern yaitu internet yang secara tidak sengaja berhasil memecahkan kode digital dan menjadikannya paket-paket yang terpisah.
+                  <i class="bi bi-quote quote-icon-right"></i>
                 </p>
-                </div>
+              </div>
             </div>
-            </div><!-- End testimonial item -->
+          </div><!-- End testimonial item -->
 
-            <div class="swiper-slide">
+          <div class="swiper-slide">
             <div class="testimonial-wrap">
-                <div class="testimonial-item">
+              <div class="testimonial-item">
                 <div class="d-flex align-items-center">
-                    <img src="assets/img/testimonials/fact5.jpeg" class="testimonial-img flex-shrink-0" alt="">
-                    <div>
+                  <img src="assets/img/testimonials/fact5.jpeg" class="testimonial-img flex-shrink-0" alt="">
+                  <div>
                     <h3>Uang fisik hanya 8% didunia</h3>
                     <h4>sisanya hanya ada pada komputer</h4>
                     <div class="stars">
-                        
+
                     </div>
-                    </div>
+                  </div>
                 </div>
                 <p>
-                    <i class="bi bi-quote quote-icon-left"></i>
-                    hanya 8% dari semua uang di dunia ini adalah uang tunai sebenarnya secara fisik. Sisanya hanya uang digital yang ditunjukkan dalam digit angka yang ada pada sistem komputer.
-                    <i class="bi bi-quote quote-icon-right"></i>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  hanya 8% dari semua uang di dunia ini adalah uang tunai sebenarnya secara fisik. Sisanya hanya uang digital yang ditunjukkan dalam digit angka yang ada pada sistem komputer.
+                  <i class="bi bi-quote quote-icon-right"></i>
                 </p>
-                </div>
+              </div>
             </div>
-            </div><!-- End testimonial item -->
+          </div><!-- End testimonial item -->
 
-            <div class="swiper-slide">
+          <div class="swiper-slide">
             <div class="testimonial-wrap">
-                <div class="testimonial-item">
+              <div class="testimonial-item">
                 <div class="d-flex align-items-center">
-                    <img src="assets/img/testimonials/fact4.png" class="testimonial-img flex-shrink-0" alt="">
-                    <div>
+                  <img src="assets/img/testimonials/fact4.png" class="testimonial-img flex-shrink-0" alt="">
+                  <div>
                     <h3>Blog pertama</h3>
                     <h4>Blog perdana di dunia</h4>
                     <div class="stars">
-                        
+
                     </div>
-                    </div>
+                  </div>
                 </div>
                 <p>
-                    <i class="bi bi-quote quote-icon-left"></i>
-                    Blog atau weblog yang pertama kali muncul adalah halaman what's new pada browser mosaic. Blog ini dibuat oleh Marc Andersen pada tahun 1993. Mosaic adalah browser pendahulu sebelum adanya internet explorer bahkan netscape.
-                    <i class="bi bi-quote quote-icon-right"></i>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  Blog atau weblog yang pertama kali muncul adalah halaman what's new pada browser mosaic. Blog ini dibuat oleh Marc Andersen pada tahun 1993. Mosaic adalah browser pendahulu sebelum adanya internet explorer bahkan netscape.
+                  <i class="bi bi-quote quote-icon-right"></i>
                 </p>
-                </div>
+              </div>
             </div>
-            </div><!-- End testimonial item -->
+          </div><!-- End testimonial item -->
 
         </div>
         <div class="swiper-pagination"></div>
-        </div>
+      </div>
 
     </div>
-    </section><!-- End Testimonials Section -->
+  </section><!-- End Testimonials Section -->
 
   <!-- ======= Footer ======= -->
   <footer id="footer" class="footer">
@@ -248,21 +248,21 @@
             <span>SMK Telkom Sidoarjo</span>
           </a>
           <p>
-          SMK Telkom Sidoarjo (SKOMDA) merupakan sekolah unggulan dibidang ICT yang memiliki fasilitas pembelajaran yang modern, tenaga pengajar yang kompeten, kerjasama perusahaan yang memadahi, serta dibangun di kawasan yang kondusif dan menyenangkan untuk belajar.
+            SMK Telkom Sidoarjo (SKOMDA) merupakan sekolah unggulan dibidang ICT yang memiliki fasilitas pembelajaran yang modern, tenaga pengajar yang kompeten, kerjasama perusahaan yang memadahi, serta dibangun di kawasan yang kondusif dan menyenangkan untuk belajar.
           </p>
           <div class="social-links d-flex mt-4">
             <a href="https://smktelkom-sda.sch.id/" class="website"><i class="bi bi-window-sidebar"></i></a>
-            <a href="<?= base_url('admin')?>" class="website"><i class="bi bi-file-text"></i></a>
+            <a href="<?= base_url('admin') ?>" class="website"><i class="bi bi-file-text"></i></a>
           </div>
         </div>
 
         <div class="col-lg-2 col-6 footer-links">
           <h4>Link-link</h4>
           <ul>
-            <li><a href="<?=base_url()?>">Beranda</a></li>
-            <li><a href="<?=base_url("tentangkjd")?>">Tentang KJD</a></li>
-            <li><a href="<?=base_url("materi")?>">Materi</a></li>
-            <li><a href="<?=base_url("praktik")?>">Praktik</a></li>
+            <li><a href="<?= base_url() ?>">Beranda</a></li>
+            <li><a href="<?= base_url("tentangkjd") ?>">Tentang KJD</a></li>
+            <li><a href="<?= base_url("materi") ?>">Materi</a></li>
+            <li><a href="<?= base_url("praktik") ?>">Praktik</a></li>
             <li><a href="#fact">KJD Fact</a></li>
           </ul>
         </div>
@@ -280,7 +280,7 @@
           <p>
             Jl. Pecantingan, Sekardangan Indah, Sekardangan, Kec. Sidoarjo<br>
             Kabupaten Sidoarjo<br>
-            Jawa Timur <br><br> 
+            Jawa Timur <br><br>
             <strong>Kode Pos:</strong> 61215<br>
             <strong>Telp:</strong> (+62) 31-99711858<br>
             <strong>Email:</strong> informasi@smktelkom-sda.sch.id<br>
@@ -295,7 +295,7 @@
       <div class="copyright">
         &copy; Copyright <strong><span>Impact</span></strong>. All Rights Reserved
       </div>
-      
+
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you purchased the pro version. -->
